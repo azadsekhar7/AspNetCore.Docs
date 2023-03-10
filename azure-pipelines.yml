@@ -13,8 +13,6 @@ steps:
   inputs:
     command: 'restore'
     projects: '**/*.csproj'
-    feedsToUse: 'select'
-    vstsFeed: '<your-nuget-feed>'
 
 - task: DotNetCoreCLI@2
   displayName: 'Build Solution'
